@@ -1,0 +1,12 @@
+.loader {
+  width: 4rem;
+  height: 4rem;
+  
+  animation: loader .7s infinite linear;
+}
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
